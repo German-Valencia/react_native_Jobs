@@ -10,11 +10,16 @@ import { useRouter } from "expo-router";
 
 import styles from "./popularjobs.style";
 import { COLORS, SIZES } from "../../../constants";
+import PopularJobCard from "../../common/cards/popular/PopularJobCard";
 
 const Popularjobs = () => {
+  const router = useRouter();
+
   return (
-    <View>
-      <Text>Popularjobs</Text>
+    <View style={styles.container}>
+      <View style={styles.header}>
+
+      </View>
     </View>
   );
 };
